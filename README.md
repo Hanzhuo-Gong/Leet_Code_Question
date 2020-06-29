@@ -1,3 +1,3 @@
-# For_Questions
+# Leet Code Questions
 
-This repository contains the solutions of questions in HankerRank and LeetCode. Bascially for self-improvement of my skills
+This repository contains the solutions for questions in LeetCode. Bascially for self-improvement of my skills.
