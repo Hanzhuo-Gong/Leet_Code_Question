@@ -7,19 +7,11 @@ Created on Sun Jun 28 20:28:53 2020
 """
 
 
-class Solution(object):
-    def moveZeroes(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: None Do not return anything, modify nums in-place instead.
-        """
-        
-        i = 0
-        totalLength = len(nums)
-        while i < totalLength:
-            if nums[i] == 0:
-                nums.pop(i)
-                nums.append(0)
-                totalLength = totalLength - 1
-            else:
-                i += 1
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        #sort the array first
+        nums.sort();
+        i = 0;
+        result = 0;
+        while i < len(nums):
+            print
